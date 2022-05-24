@@ -1,0 +1,247 @@
+<!doctype html>
+<html lang="en">
+ <head>
+ <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <!-- Bootstrap CSS -->
+ <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+ <title>Fate/stay night</title>
+ <link href="style.css" rel="stylesheet">
+<!--
+<script async="" src="https://b92.yahoo.co.jp/search/?p=FDAX4FOTLW&amp;label=&amp;ref=https%3A%2F%2Fwww.fate-sn.com%2Fubw%2F&amp;rref=https%3A%2F%2Fwww.fate-sn.com%2Fubw%2F&amp;pt=&amp;item=&amp;cat=&amp;price=&amp;quantity=&amp;r=1653294176.8019297&amp;pvid=mbpdue2ce8jl3ignz4e&amp;tsyjad=1653293803&amp;_impl=prev"></script>
+<script async="" src="//www.google-analytics.com/analytics.js"></script>
+ <noscript>
+   "<div style="display:inline;">
+     <img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/958785198/?value=1.00&amp;currency_code=JPY&amp;label=mE4fCNrOulYQrs2XyQM&amp;guid=ON&amp;script=0"/>
+   </div>
+ </noscript>
+-->
+
+ </head>
+
+ <body background="img/so-white.png">
+   <!--固定上部的带图标的导航栏-->
+   <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+     <a class="navbar-brand" href="#">
+        <img src="img/logo_staynight.png" alt="" width="60" height="48" class="d-inline-block align-text-top">
+     </a>
+     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-link active" aria-current="page" href="#">About</a>
+        <a class="nav-link" href="#">Plot</a>
+        <a class="nav-link" href="#">15years</a>
+        <a class="nav-link disabled">Type-Moon</a>
+      </div>
+    </div>
+  </div>
+</nav>
+<!--三张轮播图-->
+<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+<!--fate15的第一张轮播图-->
+    <div class="carousel-item active">
+      <img src="img/fate15.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption">
+     				 <h1>Fate/Stay Night 15th</h1>
+     				 <h6>2004年文字冒险游戏《Fate/stay nignt》的推出，标志着Fate系列的诞生。</h6>
+     	</div>
+    </div>
+
+<!--fate ubw的第三张轮播图-->
+    <div class="carousel-item">
+      <img src="img/ubw.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption">
+             <h1>Fate/stay night [Unlimited Blade Works]</h1>
+             <h6>《Fate/stay night [Unlimited Blade Works]》改编自视觉小说《Fate/stay night》的“Unlimited Blade Works”故事线，故事主要讲述了日本冬木市的高中生和业余魔术师卫宫士郎为争夺万能的许愿机“圣杯”而互相厮杀的战争。</h6>
+      </div>
+    </div>
+
+<!--fate hf的第二张轮播图-->
+    <div class="carousel-item">
+      <img src="img/hf.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption">
+              <h1>Fate/stay night [Heaven's Feel]</h1>
+              <h6>Fate/stay night [Heaven's Feel]是根据Fate/stay night中的第三条路线“Heaven's Feel（天之杯）”改编而成的动画电影系列，共三章。</h6>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+<!--音乐播放器-->
+<br />
+<div class="container-fluid">
+  <div class="row">
+      <audio src="calm.mp3" id="aud" autoplay="autoplay" controls="controls" preload="auto">
+      </audio>
+<br />
+<br />
+<br />
+<div class="container-fluid">
+  <div class="row">
+      <div class="mx-auto" style="width:200px;">
+      <h6>Click to Play Music</h6>
+    </div>
+  </div>
+
+ </div>
+</div>
+<!--关于fate-->
+<br />
+<br />
+<div class="container-fluid">
+	<div class="row">
+    <div class="col-lg-6">
+      <h2 class="About">About " Fate/Stay Night "</h2>
+      <br />
+      <p>Fate/stay night (フェイト／ステイナイト, Feito/sutei naito) is a Japanese eroge visual novel game created by TYPE-MOON, which was originally released on January, 30, 2004. </p>
+      <p>It is TYPE-MOON's first commercial work, following its transition from a doujin soft visual novel group.</p>
+      <p>Set in the same universe as previous TYPE-MOON releases, it is among the most well-known and popular visual novels.</p>
+      <a href="https://typemoon.fandom.com/wiki/Fate/stay_night" class="btn btn-danger">Learn More</a>
+    </div>
+    <div class="col-lg-6">
+    <img src="img/logo.webp" class="rounded mx-auto d-block">
+    </div>
+  </div>
+</div>
+<br />
+<hr />
+
+<!--Plot-->
+<br />
+<br />
+<div class="container-fluid">
+	<div class="row">
+    <div class="col-lg-12">
+      <h1 class="text-center">Plot</h1>
+      <br />
+      <p class="text-center">Fate/stay night chronicles a two-week period in the life of Shirou Emiya, an amateur mechanic who attends a school called Homurahara Gakuen in Fuyuki City.</p>
+      <p class="text-center">Ten years ago, Shirou was caught in a massive fire that incinerated his parents and consumed a large portion of the city. As he was dying, an enigmatic man named Kiritsugu Emiya discovered, saved, and adopted him. The two maintain a distant relationship because of Kiritsugu's frequent departures from Fuyuki City.</p>
+      <p class="text-center">. . . . . .</p>
+        <div class="text-center">
+          <img src="img/fire.jpg" class="img-fluid rounded" alt="...">
+          <figcaption class="figure-caption text-center">Fuyuki Fire</figcaption>
+        </div>
+    </div>
+  </div>
+</div>
+<br />
+<hr />
+
+<!--三条主线-->
+<br />
+<div class="container-fluid">
+  <div class="row text-center">
+    <div class="col-12">
+      <h1>Three Main Lines</h1>
+      <br />
+      <h5></h5>
+    </div>
+  </div>
+</div>
+<div class="container-fluid">
+  <div class="row ">
+    <div class="col h-100">
+      <div class="card text-center " style="width: 25rem;">
+        <img src="img/fate.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title 2rem">Fate</h5>
+          <p class="card-text">After completing the Holy Grail War, completing the promise with Shirou, and destroying the Holy Grail, Saber can finally let go of his Servant status and say "I love you" to Shirou with a smile.
+            <br><br>The liberated king returned to his own time, returned the sword of the elf, and rested peacefully under the tree with the pride of the king, which was the basis for the ending of the Fate line TV animation produced by Studio Deen in 2006 .</p>
+          <a href="https://typemoon.fandom.com/wiki/Fate/stay_night" class="btn btn-danger">More</a>
+        </div>
+     </div>
+    </div>
+    <div class="col h-100">
+      <div class="card text-center" style="width: 25rem;">
+        <img src="img/ubw22.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title 2rem">Unlimitied Blade Works</h5>
+          <p class="card-text">The encounter with Shirou and Archer made Saber firm in his beliefs. With feelings for Shirou, Saber went on the same route as Fate and continued her journey. Archer left under the rising sun, entrusting his past self to Rin. After Shirou and Rin went through a brutal war, Shirou followed Rin to learn magic and made a promise to stay together for a lifetime. In this ending, it was revealed that Rin was about to go to the Tower of London for further studies after graduation, and invited Shirou to go to London with him.</p>
+          <a href="https://typemoon.fandom.com/wiki/Fate/stay_night" class="btn btn-danger">More</a>
+        </div>
+     </div>
+    </div>
+    <div class="col h-100">
+      <div class="card text-center" style="width: 25rem;">
+        <img src="img/hf33.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title 2rem">Heaven's Feel</h5>
+          <p class="card-text">Ilyasviel kept Shirou's soul at the cost of her life, and Rin resurrected Shirou with the help of a doll. Afterwards, Sakura, who possesses the Holy Grail function and possesses near-infinite magic power, maintains Shirou's vitality by supplementing the magic power.
+            <br><br>After returning from London, Rin seems to have joined in.
+ In the 39th round of Tiger Dojo, this line is the true ending of the game. (Nasu Mushroom later denied this line as the true ending. </p>
+          <a href="https://typemoon.fandom.com/wiki/Fate/stay_night" class="btn btn-danger">More</a>
+        </div>
+     </div>
+    </div>
+  </div>
+</div>
+<br />
+<hr />
+
+<!--15years-->
+<br />
+<br />
+<div class="container-fluid">
+	<div class="row">
+    <div class="col-lg-12">
+      <br />
+        <div class="text-center">
+          <img src="img/logo.png" class="img-fluid rounded" alt="...">
+          <figcaption class="figure-caption text-center"></figcaption>
+        </div>
+<br />
+<br />
+        <h6 class="text-center">2004年1月30日にPCゲーム『Fate/stay night』が発売されました。<br />
+皆様に支えられ2019年1月30日で15年を迎えることができました。<br />
+この15年、作品を支えてくれたファンの皆様、<br />
+関係者の皆様に厚く御礼申し上げます。</h6>
+<br />
+        <p class="text-center">2020.10.02</p>
+        <p class="text-center"><a href="https://fate-15th.com/" class="btn btn-danger center">More</a></p>
+    </div>
+  </div>
+</div>
+<br />
+<hr />
+<!--footer-->
+  <footer>
+    <br />
+    <div class="container-fluid">
+		<div class="row text-center">
+			<div class="col-md-12">
+				<img src="img/tm.png">
+        <br>
+        <br>
+				<p>Type-Moon</p>
+				<p>(2003-2022)</p>
+			</div>
+      <div class="col-12">
+				<hr class="light">
+				<p>&copy; TYPE-MOON All Rights Reserved.</p>
+			</div>
+		</div>
+	</div>
+</footer>
+ <!-- JavaScript; -->
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-
+ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+ </body>
+</html>
