@@ -1,7 +1,7 @@
 ---
-title: 🧠 Sharpen your thinking with a second brain
+title: More Goods Articles Will Coming 
 summary: Create a personal knowledge base and share your knowledge with your peers.
-date: 2023-10-26
+date: 2024-10-6
 authors:
   - admin
 tags:
