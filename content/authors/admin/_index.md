@@ -46,7 +46,5 @@ highlight_name: true
 # Author's website URL
 website: ""
 ---
-Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include
-distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops
-self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+Hi there! I'm Theo. My MBTI type is ENTJ. I completed my undergraduate studies in Advertising at the Communication University of China. I've previously worked in an advertising agency (Publicis Groupe) and an AI company (Minimax). I have a deep interest in psychology, philosophy, and sociology. In my daily life, I enjoy hiking, reading, and writing. I'm also passionate about personal management and reflective journaling. I believe that humans have boundless potential and are capable of continuous breakthroughs—possibilities are always limitless.
 ---
